@@ -24,7 +24,7 @@ int main(){
         for (int i = 0; i < L; i++){
             current = vec[0];
             did_swap = false;
-            for (int j = 0; j < L; j++){
+            for (int j = 1; j < L; j++){
                 if (current > vec[j]){
                     //cout << vec[j] << " swap " << vec[j-1] << endl;
                     swap(vec[j], vec[j-1]);
